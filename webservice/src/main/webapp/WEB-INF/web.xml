@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+
+    <servlet>
+        <servlet-name>MeeterService</servlet-name>
+        <servlet-class>com.openmeet.webservice.services.MeeterService</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MeeterService</servlet-name>
+        <url-pattern>/MeeterService</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>MessageService</servlet-name>
+        <servlet-class>com.openmeet.webservice.services.MessageService</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MessageService</servlet-name>
+        <url-pattern>/MessageService</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Meeter_InterestService</servlet-name>
+        <servlet-class>com.openmeet.webservice.services.Meeter_InterestService</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Meeter_InterestService</servlet-name>
+        <url-pattern>/Meeter_InterestService</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ImageService</servlet-name>
+        <servlet-class>com.openmeet.webservice.services.ImageService</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ImageService</servlet-name>
+        <url-pattern>/ImageService</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>InterestService</servlet-name>
+        <servlet-class>com.openmeet.webservice.services.InterestService</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InterestService</servlet-name>
+        <url-pattern>/InterestService</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BanService</servlet-name>
+        <servlet-class>com.openmeet.webservice.services.BanService</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BanService</servlet-name>
+        <url-pattern>/BanService</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ReportService</servlet-name>
+        <servlet-class>com.openmeet.webservice.services.ReportService</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReportService</servlet-name>
+        <url-pattern>/ReportService</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RatingService</servlet-name>
+        <servlet-class>com.openmeet.webservice.services.RatingService</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RatingService</servlet-name>
+        <url-pattern>/RatingService</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PasswordRecoveryService</servlet-name>
+        <servlet-class>com.openmeet.webservice.services.PasswordRecoveryService</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PasswordRecoveryService</servlet-name>
+        <url-pattern>/PasswordRecoveryService</url-pattern>
+    </servlet-mapping>
+
+</web-app>

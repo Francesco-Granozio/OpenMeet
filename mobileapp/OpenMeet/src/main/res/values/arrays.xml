@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gender_identity_items">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Non-Binary</item>
+    </string-array>
+
+    <string-array name="gender_orientation_items">
+        <item>Males</item>
+        <item>Females</item>
+        <item>Both (Males &amp; Females)</item>
+        <item>Non-Binary\'s</item>
+        <item>Everybody</item>
+    </string-array>
+
+    <string-array name="gender_identity_labels">
+        <item>M</item>
+        <item>F</item>
+        <item>N</item>
+    </string-array>
+
+    <string-array name="gender_orientation_labels">
+        <item>M</item>
+        <item>F</item>
+        <item>B</item>
+        <item>N</item>
+        <item>E</item>
+    </string-array>
+
+    <array name="age_slider_values">
+        <item>18.0</item>
+        <item>100.0</item>
+    </array>
+    <array name="distance_slider_values">
+        <item>1.0</item>
+        <item>1000.0</item>
+    </array>
+</resources>

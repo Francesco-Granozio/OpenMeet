@@ -1,0 +1,93 @@
+<resources>
+    <string name="connection_error">Errore di connessione. Controlla la tua connessione ad Internet o riprova più tardi.</string>
+
+    <string name="continue_btn">Continua</string>
+    <string name="login_btn">Accedi</string>
+    <string name="signup_btn">Registrati</string>
+
+    <string name="registration_TextView">Non hai un account? <u>Registrati</u></string>
+    <string name="login_TextView">Hai già un account? <u>Accedi</u></string>
+
+    <string name="email_null_error">Email non inserita!</string>
+    <string name="email_format_error">Formato email non valido!</string>
+    <string name="email_local_toolong_error">Parte locale Email troppo lunga!</string>
+    <string name="email_domain_toolong_error">Parte dominio Email troppo lunga!</string>
+
+    <string name="name_null_error">Nome non inserito!</string>
+    <string name="surname_null_error">Cognome non inserito!</string>
+    <string name="underage_error">Sei troppo piccino, ma potresti far iscrivere tua mamma.</string>
+    <string name="password_null_error">Password non inserita!</string>
+    <string name="password_conf_null_error">Devi confermare la password!</string>
+    <string name="password_unmatch_error">Le password devono essere uguali!</string>
+
+    <string name="login_failed">"Accesso fallito: credenziali errate."</string>
+    <string name="login_failed_email">Controlla che l\'email sia corretta.</string>
+    <string name="login_failed_password">Controlla che la password sia corretta.</string>
+
+    <string name="homescreen_chat_title">Messaggi</string>
+    <string name="homescreen_discover_title">Scopri</string>
+    <string name="homescreen_user_title">Utente</string>
+    <string name="registration_title">Inserisci i tuoi dati personali</string>
+    <string name="name_hint">Nome</string>
+    <string name="surname_hint">Cognome</string>
+    <string name="confirmPass_hint">Conferma Password</string>
+    <string name="birthdate_hint">Data di Nascita</string>
+    <string name="biography_hint">Biografia</string>
+    <string name="duplicate_mail">Questa email è già registrata.</string>
+    <string name="interestFilter_hint">Filtra interessi</string>
+    <string name="warn_title">Qualcosa è andato storto…</string>
+    <string name="GPS_disabled_message">Il tuo GPS sembra essere disabilitato. Devi attivarlo per continuare.</string>
+    <string name="empty_chat_message">Ancora nulla qui…🤕</string>
+    <string name="positive_dialog">Va benone</string>
+    <string name="retry_dialog">Riprova</string>
+    <string name="registration_sexual_stage_title">Che genere ti identifica? E chi cerchi?</string>
+    <string name="registration_interest_stage_title">Hai qualche hobby? (selezionane almeno 3 e massimo 6)</string>
+    <string name="registration_biography_stage_title">Scrivi qualcosa su di te.</string>
+    <string name="registration_image_stage_title">Vogliamo sapere quanto sei bello, metti qualche foto!</string>
+
+    <string name="genderIndentity_hint">Mi identifico come…</string>
+    <string name="genderOrientation_hint">Sto cercando…</string>
+    <string name="generic_null_error">Campo vuoto!</string>
+    <string name="checkbox_error">Devi inserire almeno 3 e massimo 6 interessi!</string>
+    <string name="image_error">Devi impostare almeno un\'immagine di profilo per continuare.</string>
+
+    <string name="double_back_prompt">Torna di nuovo indietro per uscire.</string>
+    <string name="report_btn_text"><u>Segnala</u></string>
+    <string name="report_dialog_title">Qual è il motivo della segnalazione?</string>
+    <string name="report_positive_dialog">Invia</string>
+    <string name="report_reason_spam">È spam</string>
+    <string name="report_reason_impersonation">Sta impersonando qualcun altro</string>
+    <string name="report_reason_inappropriate">Contiene materiale inappropriato (Esempio: odio, terrorismo, autolesionismo…)</string>
+    <string name="report_reason_nudity">Contiene nudità esplicita</string>
+    <string name="report_reason_bullying">Sta praticando atti di bullismo</string>
+    <string name="report_reason_harrassment">Mi sta molestando</string>
+    <string name="report_reason_selling">Mi sta chiedendo dei soldi</string>
+    <string name="report_done_title">Segnalazione inviate! 📬</string>
+    <string name="report_done_message">La tua segnalazione sarà revisionata da un moderatore il prima possibile.\n\nGrazie per il tuo contributo.</string>
+    <string name="recover_password_TextView">Hai dimenticato la password? <u>Recuperala qui</u></string>
+    <string name="delete_account">ELIMINA ACCOUNT</string>
+    <string name="message_hint">Scrivi un messaggio…</string>
+    <string name="recovery_dialog_title">Verrà inviata un\'email con le istruzioni di recupero all\'indirizzo</string>
+    <string name="negative_dialog">No</string>
+    <string name="recovery_dialog_message">Vuoi continuare?</string>
+    <string name="completed_recovery_dialog_title">Email inviata! 📬</string>
+    <string name="banned_dialog_title">Hai sbloccato una nuova arma! 🔨</string>
+    <string name="banned_dialog_message">Hai scoperto il martello del ban, complimenti.</string>
+    <string name="banned_dialog_description">Motivo:</string>
+    <string name="banned_dialog_expiry">Scade il:</string>
+    <string name="cancel_dialog">Annulla</string>
+    <string name="password_length_error">La password deve essere lunga almeno 8 caratteri e massimo 16.</string>
+    <string name="password_special_char_error">La password deve contenere almeno un carattere speciale.</string>
+    <string name="password_number_error">La password deve contenere almeno un numero</string>
+    <string name="password_uppercase_error">La password deve contenere almeno una lettera minuscola.</string>
+    <string name="password_lowercase_error">La password deve contenere almeno una lettera maiuscola.</string>
+    <string name="logout_dialog">Sei sicuro?</string>
+    <string name="positive_dialog2">Sì</string>
+    <string name="remove_interest_dialog">Vuoi rimuovere</string>
+    <string name="add_interest">Seleziona un interesse da aggiungere</string>
+    <string name="interest_label">Interessi</string>
+    <string name="save_label">Salva</string>
+    <string name="filter_label">Filtri</string>
+    <string name="age_label">Età</string>
+    <string name="distance_label">Distanza (Km)</string>
+</resources>

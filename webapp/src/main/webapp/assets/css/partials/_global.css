@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+}
+
+a, li {
+    text-decoration: none;
+}
+
+main {
+    flex-basis: calc(100% - 220px);
+    width: 100;
+}
+
+.toggle-pwd-icon {
+    background: transparent !important;
+    cursor: pointer;
+
+    border-left: none;
+}

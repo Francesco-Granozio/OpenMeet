@@ -1,0 +1,113 @@
+<resources>
+    <string name="facebook_app_id" translatable="false">876963683557356</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb876963683557356</string>
+    <string name="facebook_client_token" translatable="false">52983808b6067558a03fd551e748d4b2</string>
+
+    <string name="app_name" translatable="false">OpenMeet</string>
+    <string name="request_server_address" translatable="false">192.168.1.33:8080/Gradle___com_openmeet___webservice_1_0_SNAPSHOT_war/</string>
+    <string name="connection_error">Connection error. Check your Internet connection or try again later.</string>
+
+    <string name="continue_btn">Continue</string>
+    <string name="login_btn">Login</string>
+    <string name="signup_btn">Sign-up</string>
+
+    <string name="registration_title">Fill-in your personal information</string>
+    <string name="duplicate_mail">This email is already taken.</string>
+    <string name="name_hint">Name</string>
+    <string name="surname_hint">Surname</string>
+    <string name="birthdate_hint">Date of Birth</string>
+    <string name="confirmPass_hint">Confirm Password</string>
+    <string name="biography_hint">Biography</string>
+    <string name="interestFilter_hint">Filter interests</string>
+    <string name="genderIndentity_hint">I Identify as…</string>
+    <string name="genderOrientation_hint">I\'m looking for…</string>
+
+    <string name="registration_sexual_stage_title">What do you identify as? What are you looking for?</string>
+    <string name="registration_interest_stage_title">Do you have some hobbies? (select at least 3 and up to 6)</string>
+    <string name="registration_biography_stage_title">Why don\'t you write something about you?</string>
+    <string name="registration_image_stage_title">Don\'t you think people want to know what you look like?</string>
+
+    <string name="registration_TextView">Not registered? <u>Sign-up</u></string>
+    <string name="login_TextView">Already registered? <u>Login</u></string>
+    <string name="recover_password_TextView">Forgot your password? <u>Recover it here</u></string>
+
+    <string name="email_null_error">Empty email!</string>
+    <string name="email_format_error">Invalid email format!</string>
+    <string name="email_local_toolong_error">Local part of email is too long!</string>
+    <string name="email_domain_toolong_error">Domain part of email is too long!</string>
+
+    <string name="generic_null_error">Empty field!</string>
+    <string name="name_null_error">Empty name!</string>
+    <string name="surname_null_error">Empty surname!</string>
+    <string name="underage_error">Hey, you\'re too little, let your mom sign-up instead.</string>
+    <string name="password_null_error">Empty password!</string>
+    <string name="password_length_error">Password must be at least 8 characters long and up to 16.</string>
+    <string name="password_special_char_error">Password must contain at least one special character.</string>
+    <string name="password_number_error">Password must contain at least one number.</string>
+    <string name="password_lowercase_error">Password must contain at least one lowercase character.</string>
+    <string name="password_uppercase_error">Password must contain at least one uppercase character.</string>
+    <string name="password_conf_null_error">You have to confirm your password!</string>
+    <string name="password_unmatch_error">Passwords must match!</string>
+    <string name="checkbox_error">You must select at least 3 and up to 6 interests!</string>
+    <string name="image_error">You must set at least one profile picture to continue…</string>
+
+    <string name="login_failed">Login failed: wrong credentials.</string>
+    <string name="login_failed_email">Check your email.</string>
+    <string name="login_failed_password">Check your password.</string>
+
+    <string name="banned_dialog_title">You\'ve been a bad kid! 🔨</string>
+    <string name="banned_dialog_message">You\'ve been banned.</string>
+    <string name="banned_dialog_description">Reason:</string>
+    <string name="banned_dialog_expiry">Expires on:</string>
+
+    <string name="warn_title">Something went wrong…</string>
+    <string name="GPS_disabled_message">Your GPS seems to be disabled, please activate it to continue.</string>
+
+    <string name="empty_chat_message">Uh. So empty…🤕</string>
+    <string name="report_btn_text"><u>Report</u></string>
+
+    <string name="positive_dialog">Ok</string>
+    <string name="positive_dialog2">Yes</string>
+    <string name="negative_dialog">No</string>
+    <string name="cancel_dialog">Cancel</string>
+    <string name="retry_dialog">"Retry"</string>
+
+    <string name="homescreen_chat_title">Chats</string>
+    <string name="homescreen_discover_title">Discover</string>
+    <string name="homescreen_user_title">User</string>
+
+    <string name="logout_dialog">Are you sure?</string>
+    <string name="delete_account">DELETE ACCOUNT</string>
+
+    <string name="message_hint">Write your message…</string>
+
+    <string name="recovery_dialog_title">An email with recovery instructions will be sent to</string>
+    <string name="recovery_dialog_message">Do you wish to continue?</string>
+
+    <string name="completed_recovery_dialog_title">Email sent! 📬</string>
+
+    <string name="report_dialog_title">What do you want to report this Meeter for?</string>
+    <string name="report_positive_dialog">Send</string>
+    <string name="report_reason_spam">It\'s spam</string>
+    <string name="report_reason_inappropriate">It contains inappropriate or illegal material (e.g.: hate, terrorism, self-harm…)</string>
+    <string name="report_reason_nudity">It contains explicit nudity</string>
+    <string name="report_reason_impersonation">It\'s impersonating someone else</string>
+    <string name="report_reason_bullying">It\'s bullying me</string>
+    <string name="report_reason_harrassment">It\'s harassing me</string>
+    <string name="report_reason_selling">It\'s asking me for money</string>
+
+    <string name="report_done_title">Report sent! 📬</string>
+    <string name="report_done_message">Your report will soon be reviewed by a moderator.\n\nThank you for your contribution.</string>
+
+    <string name="remove_interest_dialog">Do you wish to remove</string>
+    <string name="add_interest">Select an interest to add.</string>
+
+    <string name="interest_label">Interests</string>
+    <string name="save_label">Save</string>
+    <string name="filter_label">Filters</string>
+    <string name="age_label">Age</string>
+    <string name="distance_label">Distance (Km)</string>
+
+    <string name="STD_PREFS" translatable="false">com.openmeet.user_standard_preferences</string>
+    <string name="double_back_prompt">Go back again to quit.</string>
+</resources>
